@@ -23,3 +23,8 @@ twilio==8.5.0
 typing_extensions==4.7.1
 urllib3==2.0.4
 yarl==1.9.2
+telebot==0.0.5
+pyTelegramBotAPI==4.14.0
+wikipedia==1.4.0
+beautifulsoup==4.12.2
+soupsieve==2.5
