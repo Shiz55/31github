@@ -11,6 +11,7 @@ def print_hi(name):
 '=================================================='
 'Aleks Lion, what are you doing here?'
 "I'll be back"
+"WHAT I SUPPOSED TO DO???"
 '=================================================='
 
 # Press the green button in the gutter to run the script.
