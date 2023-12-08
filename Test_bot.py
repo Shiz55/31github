@@ -11,6 +11,7 @@ button1 = types.KeyboardButton('Сохранить')
 button2 = types.KeyboardButton('Дальше')
 keyboard.add(button1, button2)
 
+shish='shish'
 
 def getwiki(s):
     try:
@@ -40,5 +41,7 @@ def save(message, info):
             f.write(info + '\n')
         bot.send_message(message.chat.id, 'Вы успешно сохранили информацию', reply_markup=types.ReplyKeyboardRemove())
     start_message(message)
+
+
 
 bot.polling()
