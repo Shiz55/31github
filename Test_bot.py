@@ -42,6 +42,8 @@ def save(message, info):
         bot.send_message(message.chat.id, 'Вы успешно сохранили информацию', reply_markup=types.ReplyKeyboardRemove())
     start_message(message)
 
-
+@bot.message_handler(commands='Иди нафиг'])
+def start_message2(message):
+    message2 = bot.send_message(message.chat.id, 'Сам Иди нафиг' reply_markup=types.ReplyKeyboardRemove())
 
 bot.polling()
