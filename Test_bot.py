@@ -12,6 +12,7 @@ button2 = types.KeyboardButton('Дальше')
 keyboard.add(button1, button2)
 
 shish='shish'
+'''wtf are you doing?'''
 
 def getwiki(s):
     try:
