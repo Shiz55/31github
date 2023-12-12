@@ -14,6 +14,7 @@ keyboard.add(button1, button2)
 shish='shish'
 '''wtf are you doing?'''
 '''aaa'''
+'''have you ever eaten craby petty?'''
 
 def getwiki(s):
     try:
