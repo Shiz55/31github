@@ -15,6 +15,7 @@ shish='shish'
 '''wtf are you doing?'''
 '''aaa'''
 '''have you ever eaten craby petty?'''
+'''kaalwjiai'''
 
 def getwiki(s):
     try:
